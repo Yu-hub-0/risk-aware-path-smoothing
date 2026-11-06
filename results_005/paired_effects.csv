@@ -1,0 +1,7 @@
+ci_95_high,ci_95_low,comparison,mean_difference,method,metric,n_cases
+64.44444444444444,42.22222222222222,P3 minus P1,53.333333333333336,paired case bootstrap; 5000 replicates,acceptance_difference_pp,90
+-0.9072776612889724,-1.3312788580392672,P3 minus P1,-1.1156220701133746,paired case bootstrap; 5000 replicates,risk_violation_difference_pp,90
+0.3793746816455483,0.22297788880691885,P3 minus P1,0.30058841941486186,paired case bootstrap; 5000 replicates,length_difference_m,90
+67.77777777777777,47.77777777777778,P3 minus P2,57.77777777777778,paired case bootstrap; 5000 replicates,acceptance_difference_pp,90
+-0.2308425314876038,-0.3874549722282614,P3 minus P2,-0.30538476970484896,paired case bootstrap; 5000 replicates,risk_violation_difference_pp,90
+0.20905854442385396,0.06629661663154857,P3 minus P2,0.13740155182014566,paired case bootstrap; 5000 replicates,length_difference_m,90

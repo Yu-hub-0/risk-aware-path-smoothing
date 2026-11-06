@@ -1,0 +1,16 @@
+{
+  "seed": 20261010,
+  "n_per_scenario": 30,
+  "total_cases": 90,
+  "map": "synthetic, 40 x 40 cells, 1 m/cell",
+  "risk_limit": 0.5,
+  "independent_check_spacing_m": 0.005,
+  "v_max_mps": 2.0,
+  "a_t_max_mps2": 2.0,
+  "a_lat_max_mps2": 2.5,
+  "source_modules": [
+    "source/B_Astar_Algorithm.py",
+    "source/astar_risk_path.py"
+  ],
+  "scope": "geometric and reference-kinematic E1 only; no NMPC execution"
+}

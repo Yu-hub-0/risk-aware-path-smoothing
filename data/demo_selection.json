@@ -1,0 +1,192 @@
+{
+  "rule": "lowest case index per family with accepted P3 and nonzero P1 risk violation; fallback index 0",
+  "examples": [
+    {
+      "scenario": "corner",
+      "case": 1,
+      "metrics": {
+        "P0": {
+          "length_m": 45.6468827043885,
+          "violation_length_m": 0.0,
+          "violation_fraction": 0.0,
+          "max_risk": 0.06496465195245474,
+          "status": "geometric_only",
+          "kinematic_ok": false,
+          "duration_s": null,
+          "repair_passes": 0,
+          "optimized": false
+        },
+        "P1": {
+          "length_m": 45.16182452219401,
+          "violation_length_m": 0.5049653462683178,
+          "violation_fraction": 0.011181243264876536,
+          "max_risk": 0.9,
+          "duration_s": 23.583012518072476,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000004,
+          "peak_lateral_acc_mps2": 0.5361587395912794,
+          "kinematic_ok": true,
+          "repair_passes": 0,
+          "optimized": false,
+          "status": "risk_or_kinematic_failed",
+          "compute_s": 0.0016057000029832125
+        },
+        "P2": {
+          "length_m": 45.313917191051395,
+          "violation_length_m": 0.32999045231749996,
+          "violation_fraction": 0.007282320151802426,
+          "max_risk": 0.9,
+          "duration_s": 23.659050896192298,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000004,
+          "peak_lateral_acc_mps2": 0.6455269892217028,
+          "kinematic_ok": true,
+          "repair_passes": 0,
+          "optimized": true,
+          "status": "risk_or_kinematic_failed",
+          "compute_s": 0.012847299978602678
+        },
+        "P3": {
+          "length_m": 45.52606706972054,
+          "violation_length_m": 0.0,
+          "violation_fraction": 0.0,
+          "max_risk": 0.06496465195245474,
+          "duration_s": 23.76512862291253,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000004,
+          "peak_lateral_acc_mps2": 1.3514236630495815,
+          "kinematic_ok": true,
+          "repair_passes": 1,
+          "optimized": true,
+          "status": "accepted",
+          "compute_s": 0.03592489997390658
+        }
+      }
+    },
+    {
+      "scenario": "s_bend",
+      "case": 0,
+      "metrics": {
+        "P0": {
+          "length_m": 41.25131871893348,
+          "violation_length_m": 0.0,
+          "violation_fraction": 0.0,
+          "max_risk": 0.06496465195245474,
+          "status": "geometric_only",
+          "kinematic_ok": false,
+          "duration_s": null,
+          "repair_passes": 0,
+          "optimized": false
+        },
+        "P1": {
+          "length_m": 40.68868517889109,
+          "violation_length_m": 0.6949819136843534,
+          "violation_fraction": 0.017080471158721626,
+          "max_risk": 0.9,
+          "duration_s": 21.346392811042566,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000013,
+          "peak_lateral_acc_mps2": 1.632445785713063,
+          "kinematic_ok": true,
+          "repair_passes": 0,
+          "optimized": false,
+          "status": "risk_or_kinematic_failed",
+          "compute_s": 0.001539300021249801
+        },
+        "P2": {
+          "length_m": 40.38230987840018,
+          "violation_length_m": 0.13499089224459643,
+          "violation_fraction": 0.0033428224549581992,
+          "max_risk": 0.9,
+          "duration_s": 21.19322165300879,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.000000000000001,
+          "peak_lateral_acc_mps2": 1.245647223850939,
+          "kinematic_ok": true,
+          "repair_passes": 0,
+          "optimized": true,
+          "status": "risk_or_kinematic_failed",
+          "compute_s": 0.0182430999702774
+        },
+        "P3": {
+          "length_m": 41.30150643901116,
+          "violation_length_m": 0.0,
+          "violation_fraction": 0.0,
+          "max_risk": 0.06496465195245474,
+          "duration_s": 21.652800710680722,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000018,
+          "peak_lateral_acc_mps2": 2.1300559420755385,
+          "kinematic_ok": true,
+          "repair_passes": 1,
+          "optimized": true,
+          "status": "accepted",
+          "compute_s": 0.04470029997173697
+        }
+      }
+    },
+    {
+      "scenario": "narrow",
+      "case": 1,
+      "metrics": {
+        "P0": {
+          "length_m": 45.50098402141076,
+          "violation_length_m": 0.0,
+          "violation_fraction": 0.0,
+          "max_risk": 0.06496465195245474,
+          "status": "geometric_only",
+          "kinematic_ok": false,
+          "duration_s": null,
+          "repair_passes": 0,
+          "optimized": false
+        },
+        "P1": {
+          "length_m": 44.20803346349453,
+          "violation_length_m": 0.9249610895252154,
+          "violation_fraction": 0.020922918688274526,
+          "max_risk": 0.9,
+          "duration_s": 23.106087059822688,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000013,
+          "peak_lateral_acc_mps2": 1.178375637043277,
+          "kinematic_ok": true,
+          "repair_passes": 0,
+          "optimized": false,
+          "status": "risk_or_kinematic_failed",
+          "compute_s": 0.001553200010675937
+        },
+        "P2": {
+          "length_m": 44.30906325673408,
+          "violation_length_m": 0.9799821495648179,
+          "violation_fraction": 0.022116968347686304,
+          "max_risk": 0.9,
+          "duration_s": 23.156585754887704,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000004,
+          "peak_lateral_acc_mps2": 1.0791007523484304,
+          "kinematic_ok": true,
+          "repair_passes": 0,
+          "optimized": true,
+          "status": "risk_or_kinematic_failed",
+          "compute_s": 0.01343370001995936
+        },
+        "P3": {
+          "length_m": 44.70349240021112,
+          "violation_length_m": 0.0,
+          "violation_fraction": 0.0,
+          "max_risk": 0.06496465195245474,
+          "duration_s": 23.417654156211512,
+          "peak_speed_mps": 2.0,
+          "peak_tangential_acc_mps2": 2.0000000000000013,
+          "peak_lateral_acc_mps2": 2.5000000000000004,
+          "kinematic_ok": true,
+          "repair_passes": 2,
+          "optimized": true,
+          "status": "accepted",
+          "compute_s": 0.08149100001901388
+        }
+      }
+    }
+  ],
+  "playback": "equal normalized arc-length progression; not physical time or optimization iterations"
+}
